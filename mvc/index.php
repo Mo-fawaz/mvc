@@ -11,6 +11,7 @@ $db = new MysqliDb(
     $config['db_pass'],
     $config['db_name']
 );
+//hala madrid
 $request=$_SERVER['REQUEST_URI'];
 define('base_path','/mvc/');
 use UserModel\usermodel;
