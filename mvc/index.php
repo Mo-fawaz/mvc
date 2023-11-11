@@ -18,6 +18,7 @@ $model = new UserModel($db);
 use UserController\usercontroller;
 $controller = new UserController($model);
 switch ($request) 
+
 {
     case base_path:
         $controller->index();
@@ -34,3 +35,4 @@ switch ($request)
                     
 }
 ?>
+fawaz
